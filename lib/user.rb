@@ -1,5 +1,5 @@
 class User
-  attr_reader :name, :jokes
+  attr_reader :name, :jokes, :tell
 
   def initialize(name)
     @name = name
